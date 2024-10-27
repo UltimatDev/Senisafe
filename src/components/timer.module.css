@@ -1,0 +1,77 @@
+.app {
+    background-color: #f6ba4c;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.latestAlarmContainer {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.latestAlarm {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.alarmContainer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+}
+
+.submitButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.activeAlarms {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.activeAlarm {
+    padding: 10px;
+    color: #333;
+    text-align: center;
+    border-radius: 4px;
+    width: 150px;
+}
+
+.alarmOn {
+    border: 2px solid #4CAF50;
+}
+
+.alarmOff {
+    border: 2px solid #FF5722;
+    opacity: 0.6;
+}
+
+.actionButton {
+    margin-top: 5px;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.edit {
+    background-color: #ff9800;
+}
+
+.delete {
+    background-color: #f44336;
+}

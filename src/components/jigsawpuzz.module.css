@@ -1,0 +1,28 @@
+
+.gameContainer {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .puzzleContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 150px); /* Adjust to match the number of columns */
+    grid-template-rows: repeat(3, 150px); /* Adjust to match the number of rows */
+    gap: 5px;
+    margin: auto;
+  }
+  
+  .piece {
+    width: 150px;
+    height: 150px;
+    background-size: 450px 450px; /* Adjust to match full image dimensions */
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  
+  .winMessage {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: green;
+  }
+  
